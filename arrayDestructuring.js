@@ -1,0 +1,16 @@
+names = ["raja","deva","prabha"]
+
+const [person1,person2,person3] = names
+
+console.log(person1,person2,person3)
+
+team = [ {name: "Raj" , role :"Lead"},
+         {name: "Hari" , role :"Architect"},
+         {name: "Rakshan" , role :"programmer"}]
+
+         const [member1,member2,member3] = team
+         console.log(member2)
+
+         const {name: member2Name} = member2
+
+         console.log(member2Name)
